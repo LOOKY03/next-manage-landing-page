@@ -194,12 +194,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-orange-500 p-28 flex justify-center lg:justify-between items-center flex-wrap space-y-4 lg:space-y-0 ">
+     
+      <div className="bg-orange-500 p-28 flex justify-center lg:justify-around items-center flex-wrap space-y-4 lg:space-y-0 ">
         <h1 className="text-4xl w-96 text-white">
           Simplify how your team works today.
         </h1>
         <button className="bg-white px-4 py-2 rounded-full">Get Started</button>
       </div>
+     
+      
 
       {/* footer */}
       <footer className="bg-stone-900 ">
